@@ -1,0 +1,14 @@
+{
+    "name": "nguyenducduy_22678211",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
