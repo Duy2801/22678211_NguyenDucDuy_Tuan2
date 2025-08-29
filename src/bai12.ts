@@ -6,8 +6,8 @@ function simulateTask(ms:number){
     })
 }
 
-async function runTask() {
+async function runTask1() {
     const result = await simulateTask(2000);
     console.log(result);
 }
-runTask();
+runTask1();
