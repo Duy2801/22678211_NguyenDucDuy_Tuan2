@@ -8,9 +8,9 @@ async function resultAfter3(num: number): Promise<number> {
 
 async function runParallel() {
   const results = await Promise.all([
-    resultAfter(2),  
-    resultAfter(4),  
-    resultAfter(6)   
+    resultAfter3(2),  
+    resultAfter3(4),  
+    resultAfter3(6)   
   ]);
 
   console.log("Results:", results);
